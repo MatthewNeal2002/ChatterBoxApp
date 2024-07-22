@@ -22,11 +22,11 @@ Elizabeth Fassler: Created team project organization, repository, and readme fil
 - Created Firebase team project, authentication, and Firestore database.
 - Finished messaging feature and overall application design.
 _____________________________________________________________________________________________________________
-Marie Haccandy:
+Marie Haccandy: Created the MainTabView.swift and StatusUpdate.swift files for Status Updates feature
 _____________________________________________________________________________________________________________
-Matthew Neal:
+Matthew Neal: 
 _____________________________________________________________________________________________________________
-Javier Guevara:
+Javier Guevara: Created ContactListView.swift file for the Contacts feature.
 _____________________________________________________________________________________________________________
 
 ### Features

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CDC2222C4D0AA30086E9B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34CDC2212C4D0AA30086E9B5 /* GoogleService-Info.plist */; };
+		34CDC2252C4D0AE40086E9B5 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CDC2242C4D0AE40086E9B5 /* ContactListView.swift */; };
 		C02638742C40B3AD00CC7055 /* ChatterBoxAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02638732C40B3AD00CC7055 /* ChatterBoxAppApp.swift */; };
 		C02638782C40B3AF00CC7055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02638772C40B3AF00CC7055 /* Assets.xcassets */; };
 		C026387B2C40B3AF00CC7055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C026387A2C40B3AF00CC7055 /* Preview Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		C026389E2C44A5E200CC7055 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026389D2C44A5E200CC7055 /* Message.swift */; };
 		C02638AE2C44A70600CC7055 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02638AD2C44A70600CC7055 /* LoginView.swift */; };
 		C02638B02C44A71800CC7055 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02638AF2C44A71800CC7055 /* RegisterView.swift */; };
-		C02638E62C487E0200CC7055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02638E52C487E0200CC7055 /* GoogleService-Info.plist */; };
 		C02638E92C487F7300CC7055 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C02638E82C487F7300CC7055 /* FirebaseAuth */; };
 		C02638EB2C49798300CC7055 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02638EA2C49798300CC7055 /* TitleRow.swift */; };
 		C02638F12C49C6E500CC7055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02638F02C49C6E500CC7055 /* ContentView.swift */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34CDC2212C4D0AA30086E9B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34CDC2242C4D0AE40086E9B5 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		C02638702C40B3AD00CC7055 /* ChatterBoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatterBoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02638732C40B3AD00CC7055 /* ChatterBoxAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterBoxAppApp.swift; sourceTree = "<group>"; };
 		C02638772C40B3AF00CC7055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +38,6 @@
 		C026389D2C44A5E200CC7055 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C02638AD2C44A70600CC7055 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C02638AF2C44A71800CC7055 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		C02638E52C487E0200CC7055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C02638EA2C49798300CC7055 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		C02638F02C49C6E500CC7055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C027D1BA2C49CACB00FF93BE /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34CDC2232C4D0AC40086E9B5 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				34CDC2242C4D0AE40086E9B5 /* ContactListView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		C02638672C40B3AD00CC7055 = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +90,13 @@
 				C02638732C40B3AD00CC7055 /* ChatterBoxAppApp.swift */,
 				C02638F02C49C6E500CC7055 /* ContentView.swift */,
 				C0B1FA4E2C4B511D00B69F24 /* MessagesManager.swift */,
+				34CDC2232C4D0AC40086E9B5 /* Contacts */,
 				C02638812C40B3EA00CC7055 /* Extensions */,
 				C02638922C40CB7800CC7055 /* Authentication */,
 				C026388F2C40CB5600CC7055 /* Components */,
 				C02638852C40C0B800CC7055 /* Models */,
 				C02638772C40B3AF00CC7055 /* Assets.xcassets */,
-				C02638E52C487E0200CC7055 /* GoogleService-Info.plist */,
+				34CDC2212C4D0AA30086E9B5 /* GoogleService-Info.plist */,
 				C02638792C40B3AF00CC7055 /* Preview Content */,
 			);
 			path = ChatterBoxApp;
@@ -202,8 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C026387B2C40B3AF00CC7055 /* Preview Assets.xcassets in Resources */,
+				34CDC2222C4D0AA30086E9B5 /* GoogleService-Info.plist in Resources */,
 				C02638782C40B3AF00CC7055 /* Assets.xcassets in Resources */,
-				C02638E62C487E0200CC7055 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +228,7 @@
 				C02638832C40B41400CC7055 /* String.swift in Sources */,
 				C027D1BD2C49F62500FF93BE /* Extensions.swift in Sources */,
 				C027D1BF2C4A028700FF93BE /* MessageField.swift in Sources */,
+				34CDC2252C4D0AE40086E9B5 /* ContactListView.swift in Sources */,
 				C02638F12C49C6E500CC7055 /* ContentView.swift in Sources */,
 				C02638742C40B3AD00CC7055 /* ChatterBoxAppApp.swift in Sources */,
 				C02638B02C44A71800CC7055 /* RegisterView.swift in Sources */,
